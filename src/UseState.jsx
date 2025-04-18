@@ -16,11 +16,11 @@ function UseState({ name }) {
       setTimeout(() => {
         console.log("Haciendo la validacion");
 
-        if ( value === SECURITY_CODE) {
-          setLoading(false); 
+        if (value === SECURITY_CODE) {
+          setLoading(false);
         } else {
           setError(true);
-          setLoading(false); 
+          setLoading(false);
         }
 
         setLoading(false);
